@@ -18,7 +18,12 @@ body{
 }
  h3 { color: #070707 ;
    font-family: Copperplate Gothic Bold;
-   font-weight: bold;}
+   font-weight: bold;
+}
+
+p{color: #070707 ;
+   font-family: Copperplate Gothic Bold;
+}   
  nav{
     background-color: #ff0000 ;
     height: 40px;
@@ -35,8 +40,9 @@ body{
  nav a {
     text-decoration: none;
     color: rgb(5, 5, 5);
-    font-size: 1.2em;
+    font-size: 200%;
     font-weight: bold;
+    font-family: Copperplate Gothic Bold;
     margin-right: 20px;
  }
  nav a:hover{
@@ -44,9 +50,9 @@ body{
  }
 
  section {
-   float: left;
+   float: right;
    width: 100%;
-   margin-right: 3%;
+   margin-right: 0%;
    margin-bottom: 20px;
    margin-left: 3%;
 }
@@ -68,5 +74,8 @@ footer a{
    vertical-align: center;
    text-align: center;
 }
-
+table {
+   color: #070707 ;
+   font-family: Copperplate Gothic Bold;
+}
 

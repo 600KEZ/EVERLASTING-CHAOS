@@ -24,6 +24,7 @@
         	<li> <a href="Products.html"> Products</a></li>
         	<li> <a href="Check out.html">Check out</a></li>
         	<li> <a href="Contact.html">Contact</a></li>
+            <li> <a href="Blog.html">Blog</a></li>
 		</ul>
 		</div>
 	</div> 
@@ -119,9 +120,20 @@
     </tr>
     <tr>
         <td>
-            <label for="State"> State:</label><br>
-            <input type="text" id="State" name="State" placeholder="State"><br>
-        </td>
+        
+            <label for="State">State:</label>
+            <select name="State" id="State">
+                <option value="Select State">Select state</option>
+                <option value="South Australia">SA</option>
+                <option value="Tasmania">TAS</option>
+                <option value="Victoria">VIC</option>
+                <option value="Western Australia">WA</option>
+                <option value="Queensland">QLD</option>
+                <option value="Australian Capital Territory">ACT</option>
+                <option value="Northern Territory">NT</option>
+                <option value="New South Wales">NSW</option>
+            </select>
+    </td>
     </tr>
     <tr>
         <td>
@@ -162,8 +174,19 @@
     </tr>
     <tr>
         <td>
-                    <label for="State"> State:</label><br>
-            <input type="text" id="State" name="State" placeholder="State"><br>
+        
+                <label for="State">State:</label>
+                <select name="State" id="State">
+                    <option value="Select State">Select state</option>
+                    <option value="South Australia">SA</option>
+                    <option value="Tasmania">TAS</option>
+                    <option value="Victoria">VIC</option>
+                    <option value="Western Australia">WA</option>
+                    <option value="Queensland">QLD</option>
+                    <option value="Australian Capital Territory">ACT</option>
+                    <option value="Northern Territory">NT</option>
+                    <option value="New South Wales">NSW</option>
+                </select>
         </td>
     </tr>
     <tr>
@@ -183,8 +206,9 @@
 
 <Table style="border:1px solid black;margin-left:auto;margin-right:auto;">
    <tr>
-    <td><button type="submit" formaction="Order placed.html"><b>Submit</b></button></td>
-        <td><input type="Reset" value="Reset"></td>
+   <td><input type="Reset" value="Reset"></td>
+   <td><button type="submit" formaction="Order placed.html"><b>Submit</b></button></td>
+        
     </tr> 
 </Table>
 </form>
